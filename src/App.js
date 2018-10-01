@@ -45,7 +45,7 @@ class App extends Component
     return (
       <div>
         <div className = "jumbotron">
-          <h1>Tic Tac Toe</h1>
+          <h1>Tic-Tac-Toe</h1>
           <h3>Turn: { this.state.xIsNext ? " X " : " O " }</h3>
           <h3>Winner: { winner }</h3>
           <div className = "row">
